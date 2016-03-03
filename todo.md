@@ -1,7 +1,4 @@
 Back end:
-  Find data to populate DB.
-  Set up migrations.
-  Set up seeds.
   Deploy back end to Heroku and set up DB URL .env variable.
 
 Front end:
@@ -9,3 +6,5 @@ Front end:
   Deploy to Firebase.
   CSS.
   Replace Angular service notes with DB CRUD for persistence?
+
+JWTs.
