@@ -1,4 +1,7 @@
+require('dotenv').load();
+
 module.exports = {
+
   development: {
     client: 'pg',
     connection: 'postgres://localhost/travel_development'
@@ -6,6 +9,6 @@ module.exports = {
 
   production: {
     client: 'pg',
-    connection: process.env.DATABASE_URL
+    connection: process.env.DATABASE_URL + '?ssl=true'
   }
 };
