@@ -4,6 +4,9 @@ exports.up = function(knex, Promise) {
     t.string('city');
     t.string('country');
     t.text('image_url');
+    t.string('population');
+    t.string('languages');
+    t.string('sights');
   });
 };
 

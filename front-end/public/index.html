@@ -14,11 +14,11 @@
     <main>
       <center>
         <label>Search by name:
-          <input type="text" ng-model="namesearch.name">
+          <input type="text" ng-model="search">
         </label>
       </center>
       <table>
-        <tbody ng-repeat="destination in destinations | filter:namesearch">
+        <tbody ng-repeat="destination in destinations | filter:search">
           <tr>
             <td class="bottomborder">
               <center>
@@ -27,6 +27,9 @@
             </td>
             <td class="condense bottomborder">
               <h3>{{destination.city}}, {{destination.country}}</h3><br><br>
+              <strong>Population within city limits:</strong> {{destination.population}}<br><br>
+              <strong>Official language(s):</strong> {{destination.languages}}<br><br>
+              <strong>Top sights:</strong> {{destination.sights}}<br><br>
             </td>
             <td class="bottomborder">
               <form align="center">

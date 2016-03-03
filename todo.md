@@ -1,4 +1,4 @@
-- Add population, language, and top sights to API.
+- Add sights to destinations data.
 - Use Angular service to store user notes.
 - Replace Angular service notes with DB CRUD for persistence.
 - JWTs.
