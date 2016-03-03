@@ -2,7 +2,7 @@ Back end:
   Find data to populate DB.
   Set up migrations.
   Set up seeds.
-  Deploy back end to Heroku.
+  Deploy back end to Heroku and set up DB URL .env variable.
 
 Front end:
   Add content to html pages. Use Angular service to store user notes.
