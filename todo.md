@@ -1,10 +1,5 @@
-Back end:
-  Deploy to Heroku and set up DB URL .env variable.
-
-Front end:
-  Add content to html pages. Use Angular service to store user notes.
-  Deploy to Firebase.
-  CSS.
-  Replace Angular service notes with DB CRUD for persistence?
-
+Add content to html pages. Use Angular service to store user notes.
+Deploy front end to Firebase.
 JWTs.
+CSS.
+Replace Angular service notes with DB CRUD for persistence?
