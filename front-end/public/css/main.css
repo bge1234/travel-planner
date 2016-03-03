@@ -5,3 +5,63 @@
 * {
   margin: 0;
 }
+
+header{
+  height: 50px;
+  width: 100vw;
+  background: darkgray;
+  color: white;
+  padding-top: 10px;
+}
+
+input {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.checkoutbutton {
+  margin-top: 20px;
+}
+
+select, input {
+  margin-right: 10px;
+}
+
+table {
+  margin: 0 auto;
+  width: 60vw;
+  border-spacing: 25px;
+  border-collapse: collapse;;
+  border: black 2px solid;
+  margin-bottom: 10px;
+}
+
+img {
+  height: 150px;
+  width: 200px;
+}
+
+textarea {
+  height: 100px;
+  width: 150px;
+}
+
+.bottomborder {
+  border-bottom: black 1px solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*.condense {
+  width: 45%;
+}*/
+
+.small {
+  font-size: 12px;
+}
+
+button {
+  height: 25px;
+  color: black;
+  background: lightgray;
+}
