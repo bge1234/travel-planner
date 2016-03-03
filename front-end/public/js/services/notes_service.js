@@ -1,4 +1,4 @@
-app.factory('PiratesService', function ($http) {
+app.factory('notesService', function () {
   return {
 
   }
