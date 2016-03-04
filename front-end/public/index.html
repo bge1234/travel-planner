@@ -32,7 +32,8 @@
             <td class="bottomborder">
               <form align="center">
                 <label class="small"><strong>Notes:</strong><br><br>
-                  <textarea></textarea>
+                  <p>{{destination.notes}}</p>
+                  <textarea ng-model="note"></textarea>
                 </label><br><br>
                 <button ng-click="saveNote(this)">Save note</button>
               </form>

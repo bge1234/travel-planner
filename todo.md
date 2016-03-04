@@ -1,3 +1,2 @@
-- Use Angular service to store user notes.
 - Replace Angular service notes with DB CRUD for persistence.
 - JWTs.

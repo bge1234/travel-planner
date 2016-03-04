@@ -7,6 +7,7 @@ exports.up = function(knex, Promise) {
     t.string('population');
     t.string('languages');
     t.string('sights');
+    t.text('notes');
   });
 };
 
