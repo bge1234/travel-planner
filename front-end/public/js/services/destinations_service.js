@@ -74,7 +74,7 @@ app.factory('destinationsService', function () {
         "city":"Hong Kong",
         "country":"China",
         "image_url":"http://www.happycow.net/blog/wp-content/uploads/2015/09/hongkong1.jpg",
-        population: ,
+        population: "7,234,800",
         languages: "Chinese, English, (recognized: Cantonese)",
         sights: ""
     }]
