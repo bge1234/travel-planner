@@ -13,9 +13,7 @@
     </center>
     <main>
       <center>
-        <label>Search by name:
-          <input type="text" ng-model="search">
-        </label>
+        <input type="text" ng-model="search" placeholder="Search">
       </center>
       <table>
         <tbody ng-repeat="destination in destinations | filter:search">
@@ -27,9 +25,9 @@
             </td>
             <td class="condense bottomborder">
               <h3>{{destination.city}}, {{destination.country}}</h3><br><br>
-              <strong>Population within city limits:</strong> {{destination.population}}<br><br>
-              <strong>Official language(s):</strong> {{destination.languages}}<br><br>
-              <strong>Top sights:</strong> {{destination.sights}}<br><br>
+              <strong>Population within city limits:</strong> <em>{{destination.population}}</em><br><br>
+              <strong>Official language(s):</strong> <em>{{destination.languages}}</em><br><br>
+              <strong>Top sights:</strong> <em>{{destination.sights}}</em><br><br>
             </td>
             <td class="bottomborder">
               <form align="center">

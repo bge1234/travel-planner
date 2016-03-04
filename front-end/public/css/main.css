@@ -36,6 +36,10 @@ table {
   margin-bottom: 10px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 img {
   height: 150px;
   width: 200px;
